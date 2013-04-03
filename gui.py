@@ -33,9 +33,11 @@ def kod():
 
 	print("" + s)
 
-	if s.find('Hej') > 0:
+	if s.find('Zenia') > 0:
+		bl= '3500'
+	elif s.find('Hej') > 0:
 		print("Hittade Chrome!")
-		bl= '10'
+		bl= '100'
 	elif s.find('Kate') > 0:
 		bl='10'
 	elif s.find('Chrom') > 0:
@@ -53,7 +55,8 @@ def kod():
 	
 	#läser actual brightness
 	actual_bright = ''
-	p3 = subprocess.Popen(['cat', '/sys/class/backlight/acpi_video0/brightness'], stdout=subprocess.PIPE)
+	#p3 = subprocess.Popen(['cat', '/sys/class/backlight/acpi_video0/brightness'], stdout=subprocess.PIPE)
+	p3 = subprocess.Popen(['cat', '/sys/class/backlight/intel_backlight/brightness'], stdout=subprocess.PIPE)
 	for line in p3.stdout:
 	  actual_bright = line.rstrip()
 	  print("actual brightness: " + line)
