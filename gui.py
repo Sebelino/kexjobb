@@ -28,49 +28,31 @@ from threading import Thread
 
 
 
-from Tkinter import *
 level = ""
 
-class App:
-    def __init__(self, master):
-		
-        frame = Frame(master)
-        frame.pack()
-
-        self.button = Button(frame, text="Avsluta", command=frame.quit)
-        self.button.pack(side=LEFT)
-        self.level = StringVar()
-        self.level.set(0)
-        self.niva = Label(frame, textvariable=self.level)
-        self.niva.pack(side=LEFT)
-        
-        program = '-'
-        self.appl = Label(frame, text="program")
-        self.appl.pack(anchor=SW)
-		
 def kod():
 	s = ''
-	bl = '8'
+	bl = '3000'
 	s = get_active_window_title("")
 
 	print("a" + s)
 
-	if s.find('VLC') > 0:
-		bl= '2'
+	if s.find('Hej') > 0:
+		print("Hittade Chrome!")
+		bl= '10'
 	elif s.find('Kate') > 0:
 		bl='10'
-	elif s.find('Skype') > 0:
-		bl='10'
+	elif s.find('Chrom') > 0:
+		bl='2000'
 	elif s.find('no') > 0:
-		bl='1'
+		bl='500'
 		
 		
 	p1 = subprocess.Popen(['echo', bl], stdout=subprocess.PIPE)
-	p2 = subprocess.Popen(['tee', '/sys/class/backlight/acpi_video0/brightness'], stdin=p1.stdout)
+	p2 = subprocess.Popen(['tee', '/sys/class/backlight/intel_backlight/brightness'], stdin=p1.stdout)
 	p1.stdout.close() 
 	output = p2.communicate()[0]
 
-	root.after(500,kod)
 
 
 def get_active_window_title(self):
@@ -91,9 +73,7 @@ def get_active_window_title(self):
 
 	return "active win no"
 
-root = Tk()
-app = App(root)
-root.after(500,kod)
-root.mainloop()
 
-
+while True:
+	time.sleep(2)
+	kod()
