@@ -1,0 +1,8 @@
+lower, higher.
+
+keyrate: continuous.
+program: A, B, C.
+actualbright: continuous.
+other: A, B, C.
+batterylevel: continuous.
+

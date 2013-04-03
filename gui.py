@@ -26,16 +26,12 @@ import subprocess
 import re
 from threading import Thread
 
-
-
-level = ""
-
 def kod():
 	s = ''
 	bl = '3000'
 	s = get_active_window_title("")
 
-	print("a" + s)
+	print("" + s)
 
 	if s.find('Hej') > 0:
 		print("Hittade Chrome!")
@@ -51,7 +47,35 @@ def kod():
 	p1 = subprocess.Popen(['echo', bl], stdout=subprocess.PIPE)
 	p2 = subprocess.Popen(['tee', '/sys/class/backlight/intel_backlight/brightness'], stdin=p1.stdout)
 	p1.stdout.close() 
-	output = p2.communicate()[0]
+	output = p2.communicate()
+	
+	
+	
+	#läser actual brightness
+	actual_bright = ''
+	p3 = subprocess.Popen(['cat', '/sys/class/backlight/acpi_video0/brightness'], stdout=subprocess.PIPE)
+	for line in p3.stdout:
+	  actual_bright = line.rstrip()
+	  print("actual brightness: " + line)
+	  
+	
+	#read keypresses
+	#
+	#
+	#
+	
+	# skriver till fil
+	key_presses = "33"
+	skriv = "" + key_presses + ",?,"  + actual_bright + ",?,?,lower." 
+	f = open('power.test','w')
+	f.write("")
+	f.write(skriv)
+	f.close()
+	
+	
+	
+	time.sleep(0.5)
+
 
 
 
@@ -73,7 +97,7 @@ def get_active_window_title(self):
 
 	return "active win no"
 
-
-while True:
-	time.sleep(2)
-	kod()
+while 1==1:
+  kod()
+ 
+root.mainloop()
