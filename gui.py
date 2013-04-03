@@ -26,34 +26,12 @@ import subprocess
 import re
 from threading import Thread
 
-
-
-from Tkinter import *
-level = ""
-
-class App:
-    def __init__(self, master):
-		
-        frame = Frame(master)
-        frame.pack()
-
-        self.button = Button(frame, text="Avsluta", command=frame.quit)
-        self.button.pack(side=LEFT)
-        self.level = StringVar()
-        self.level.set(0)
-        self.niva = Label(frame, textvariable=self.level)
-        self.niva.pack(side=LEFT)
-        
-        program = '-'
-        self.appl = Label(frame, text="program")
-        self.appl.pack(anchor=SW)
-		
 def kod():
 	s = ''
 	bl = '8'
 	s = get_active_window_title("")
 
-	print("a" + s)
+	print("" + s)
 
 	if s.find('VLC') > 0:
 		bl= '2'
@@ -68,9 +46,36 @@ def kod():
 	p1 = subprocess.Popen(['echo', bl], stdout=subprocess.PIPE)
 	p2 = subprocess.Popen(['tee', '/sys/class/backlight/acpi_video0/brightness'], stdin=p1.stdout)
 	p1.stdout.close() 
-	output = p2.communicate()[0]
+	output = p2.communicate()
+	
+	
+	
+	#läser actual brightness
+	actual_bright = ''
+	p3 = subprocess.Popen(['cat', '/sys/class/backlight/acpi_video0/brightness'], stdout=subprocess.PIPE)
+	for line in p3.stdout:
+	  actual_bright = line.rstrip()
+	  print("actual brightness: " + line)
+	  
+	
+	#read keypresses
+	#
+	#
+	#
+	
+	# skriver till fil
+	key_presses = "33"
+	skriv = "" + key_presses + ",?,"  + actual_bright + ",?,?,lower." 
+	f = open('power.test','w')
+	f.write("")
+	f.write(skriv)
+	f.close()
+	
+	
+	
+	time.sleep(0.5)
 
-	root.after(500,kod)
+
 
 
 def get_active_window_title(self):
@@ -91,9 +96,9 @@ def get_active_window_title(self):
 
 	return "active win no"
 
-root = Tk()
-app = App(root)
-root.after(500,kod)
+while 1==1:
+  kod()
+ 
 root.mainloop()
 
 
