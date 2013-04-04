@@ -1,19 +1,19 @@
-20, A, 80, ?, ?, lower
-21, A, 70, ?, ?, lower
-22, A, 90, ?, ?, lower
-24, A, 80, ?, ?, lower
-28, A, 70, ?, ?, lower
+20, A, 10, ?, ?, lower
+21, A, 10, ?, ?, lower
+22, A, 10, ?, ?, lower
+24, A, 10, ?, ?, lower
+28, A, 10, ?, ?, lower
 
-20, A, 20, ?, ?, higher
-21, A, 30, ?, ?, higher
-22, A, 40, ?, ?, higher
-24, A, 30, ?, ?, higher
-28, A, 20, ?, ?, higher
+20, A, 2, ?, ?, higher
+21, A, 2, ?, ?, higher
+22, A, 4, ?, ?, higher
+24, A, 4, ?, ?, higher
+28, A, 2, ?, ?, higher
 
 
 43, A, ?, ?, ?, lower
-49, A, 10, ?, ?, higher
-52, A, 20, ?, ?, higher
-46, A, 20, ?, ?, higher
-42, A, 10, ?, ?, higher
+49, A, 2, ?, ?, higher
+52, A, 2, ?, ?, higher
+46, A, 2, ?, ?, higher
+42, A, 4, ?, ?, higher
 55, A, ?, ?, ?, higher
