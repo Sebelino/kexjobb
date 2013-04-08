@@ -2,6 +2,7 @@
 import sys
 import atexit
 import time
+from constants import MEMORYTIME
 global count
 global fname
  
@@ -14,7 +15,7 @@ def savecounter():
  
 atexit.register(savecounter)
 f = open(fname,'r')
-count = int(f.readline()
+count = int(f.readline())
 f.close()
  
 t = time.time()
@@ -23,6 +24,6 @@ while True:
 	input.read(96)
 	count+=1
 	#print(count)
-	if (time.time() - t > 60):
+	if (time.time() - t > MEMORYTIME):
 		t = time.time()
 		savecounter()

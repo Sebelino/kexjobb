@@ -7,11 +7,14 @@ import subprocess
 import re
 import thread
 from threading import Thread
+from constants import MAX_BL
 
-max_bl = 4302
+MAX_BL = 4302
+
+os.system("logkeys --start --output keylog.log")
 
 def kod():
-    bl = str(max_bl)
+    bl = str(MAX_BL)
     s = get_active_window_title("")
 
     
@@ -21,8 +24,7 @@ def kod():
     p3 = subprocess.Popen(['cat', '/sys/class/backlight/intel_backlight/brightness'], stdout=subprocess.PIPE)
     for line in p3.stdout:
       actual_bright = line.rstrip()
-      
-      
+    
     #read keypresses
     f = open('keypress_count','r')
     key_presses = f.read()
@@ -35,16 +37,11 @@ def kod():
         print "Nu GICK NAT GALET!!!!!!1111"
         print "Nu GICK NAT GALET!!!!!!1111"
         print "Nu GICK NAT GALET!!!!!!1111"
-        print "Nu GICK NAT GALET!!!!!!1111"
-        print "Nu GICK NAT GALET!!!!!!1111"
-        print "Nu GICK NAT GALET!!!!!!1111"
-        print "Nu GICK NAT GALET!!!!!!1111"
         key_presses = "0"
-    #
     
     
     # skriver till fil klassifierings
-    skriv = "" + key_presses + ","+s+","  +str(int(float(actual_bright)/max_bl*100)) + ",?,?,lower." 
+    skriv = "" + key_presses + ","+"?"+","  +str(int(float(actual_bright)/MAX_BL*100)) + ",?,?,lower." 
     f = open('power.test','w')
     f.write("")
     f.write(skriv)
@@ -52,10 +49,9 @@ def kod():
     f.close()
     
     
-    
-    
     #Klassifierar med adaboost
     lista = boost()
+    #print("lista"+str(lista))
     stay = lista[2]
     higher = lista[3]
     increase = 0
@@ -69,11 +65,11 @@ def kod():
     #höjer eller sänker
     #sätter brightness
     #
-    delta = int(0.5*0.01*max_bl)
+    delta = int(3*0.01*MAX_BL)
     if increase == 1:
           blint = int(actual_bright) + delta
-          if blint > max_bl:
-            bl=str(max_bl)
+          if blint > MAX_BL:
+            bl=str(MAX_BL)
           else:
             bl = str(blint)
           

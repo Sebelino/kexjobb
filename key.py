@@ -2,6 +2,7 @@ from evdev import InputDevice
 from select import select
 import time
 import thread
+from constants import MEMORYTIME
 
 def recent_keypress_count():
     return len(times)
@@ -16,7 +17,7 @@ def expire():
         f.close()
         time.sleep(0.1)
         for t in list(times):
-            if time.time()-t > 60:
+            if time.time()-t > MEMORYTIME:
                times.remove(t)
 
 dev = InputDevice('/dev/input/event0')

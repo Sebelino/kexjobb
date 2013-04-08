@@ -6,6 +6,7 @@ from evdev import InputDevice
 from select import select
 import time
 from multiprocessing import Process
+from constants import MEMORYTIME
 
 
 a = -3
@@ -15,7 +16,7 @@ def print_time( threadName, delay):
    if threadName == "Thread-1":
       start = time.time()
       while 1:
-	  if time.time() - start >= 5:
+	  if time.time() - start >= MEMORYTIME:
 	    start = time.time()
 	    print(a/6)
 	    a=0
