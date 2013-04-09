@@ -22,22 +22,28 @@ keylog_change = (123,0,0) # (Bytes,number of F5s,number of F6s)
 train_delay_counter = -1
 
 def add_entry_decrease(brightness,key_presses):
-    global train_delay_counter,keylog_change
     entry = "\n%s, ?, %s, ?, ?, lower"%(key_presses,brightness)
     print "Addar detta:             %s"% entry
     with open("power.data","a") as training_set_file:
         training_set_file.write(entry)
 
 def add_entry_increase(brightness,key_presses):
-    global train_delay_counter
     entry = "\n%s, ?, %s, ?, ?, higher"%(key_presses,brightness)
     print "Addar detta:             %s"% entry
     with open("power.data","a") as training_set_file:
         training_set_file.write(entry)
 
+def confine_training_set():
+    rows = file('power.data','r').readlines()
+    entry_count = len(filter(None,rows))
+    if entry_count >= 20:
+        start_index = entry_count-19
+        open('power.data','w').writelines(rows[start_index:])
+
 def manual_adjustments(brightness,key_presses):
     global train_delay_counter,keylog_change
-    last_line = file('keylog.log','r').readlines()[-1]
+    lines = file('keylog.log','r').readlines()
+    last_line = lines[-1]
     p = re.compile(r'(<F5>|<F6>)')
     tokens = p.split(last_line)
     current_vals = (os.path.getsize("keylog.log"),
@@ -45,6 +51,7 @@ def manual_adjustments(brightness,key_presses):
                     len(filter(lambda x: x == "<F6>",tokens)))
     if((keylog_change[1] == current_vals[1]) and (keylog_change[2] == current_vals[2])):
         return False
+    confine_training_set()
     for token in reversed(tokens):
         if token == '<F6>':
             add_entry_increase(brightness,key_presses)
@@ -54,7 +61,7 @@ def manual_adjustments(brightness,key_presses):
             break
     train_delay_counter = TRAIN_DELAY
     keylog_change = current_vals
-    time.sleep(1)
+    time.sleep(0.3)
     return True
 
 def kod():
