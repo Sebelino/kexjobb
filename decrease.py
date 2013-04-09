@@ -1,6 +1,6 @@
 import os,sys
 import subprocess
-import constants
+from constants import DIFFERENCE
 
 p3 = subprocess.Popen(['cat', '/sys/class/backlight/intel_backlight/brightness'], stdout=subprocess.PIPE)
 for line in p3.stdout:
