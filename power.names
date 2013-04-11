@@ -1,8 +1,7 @@
 lower, higher.
 
 keyrate: continuous.
-program: A, B, C.
+plugged: T,F
 actualbright: continuous.
-other: A, B, C.
 batterylevel: continuous.
 

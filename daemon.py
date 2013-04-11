@@ -10,6 +10,8 @@ from threading import Thread
 from constants import MAX_BL
 from constants import TRAIN_DELAY
 from constants import DIM_PERCENT
+from sysdata import sysdata
+
 
 def initialize():
     os.system("python2 key.py &")
@@ -22,13 +24,19 @@ keylog_change = (123,0,0) # (Bytes,number of F5s,number of F6s)
 train_delay_counter = -1
 
 def add_entry_decrease(brightness,key_presses):
-    entry = "\n%s, ?, %s, ?, ?, lower"%(key_presses,brightness)
+    sysdata_tuple = sysdata()
+    battery_level = str(sysdata_tuple[0])
+    plugged_in = 'T' if sysdata_tuple[5] else 'F'
+    entry = "\n%s, %s, %s, %s, lower"%(key_presses,plugged_in,brightness,battery_level)
     print "Addar detta:             %s"% entry
     with open("power.data","a") as training_set_file:
         training_set_file.write(entry)
 
 def add_entry_increase(brightness,key_presses):
-    entry = "\n%s, ?, %s, ?, ?, higher"%(key_presses,brightness)
+    sysdata_tuple = sysdata()
+    battery_level = str(sysdata_tuple[0])
+    plugged_in = 'T' if sysdata_tuple[5] else 'F'
+    entry = "\n%s, %s, %s, %s, higher"%(key_presses,plugged_in,brightness,battery_level)
     print "Addar detta:             %s"% entry
     with open("power.data","a") as training_set_file:
         training_set_file.write(entry)
@@ -71,11 +79,12 @@ def kod():
     s = get_active_window_title("")
 
     #läser actual brightness
-    actual_bright = ''
-    #p3 = subprocess.Popen(['cat', '/sys/class/backlight/acpi_video0/brightness'], stdout=subprocess.PIPE)
-    p3 = subprocess.Popen(['cat', '/sys/class/backlight/intel_backlight/brightness'], stdout=subprocess.PIPE)
-    for line in p3.stdout:
-      actual_bright = line.rstrip()
+    #catual_bright = ''
+    ##p3 = subprocess.Popen(['cat', '/sys/class/backlight/acpi_video0/brightness'], stdout=subprocess.PIPE)
+    #p3 = subprocess.Popen(['cat', '/sys/class/backlight/intel_backlight/brightness'], stdout=subprocess.PIPE)
+    #for line in p3.stdout:
+    #  actual_bright = line.rstrip()
+    actual_bright = os.popen('python2 get_brightness.py').readline()
 
     #read keypresses
     f = open('keypress_count','r')
@@ -94,7 +103,10 @@ def kod():
 
     
     # skriver till fil klassifierings
-    skriv = "" + key_presses + ","+"?"+","  +str(int(float(actual_bright)/MAX_BL*100)) + ",?,?,lower." 
+    sysdata_tuple = sysdata()
+    battery_level = str(sysdata_tuple[0])
+    plugged_in = 'T' if sysdata_tuple[5] else 'F'
+    skriv = "\n%s, %s, %s, %s, lower"%(key_presses,plugged_in,str(int(float(actual_bright)/MAX_BL*100)),battery_level)
     f = open('power.test','w')
     f.write("")
     f.write(skriv)
@@ -135,19 +147,13 @@ def kod():
           else:
             bl = str(blint)
     
-    p4 = subprocess.Popen(['echo', bl], stdout=subprocess.PIPE)
-    p5 = subprocess.Popen(['tee', '/sys/class/backlight/intel_backlight/brightness'], stdin=p4.stdout)
-    #p5 = subprocess.Popen(['tee', '/sys/class/backlight/acpi_video0/brightness'], stdin=p4.stdout)
-    p4.stdout.close() 
-    p5.communicate()
+    arst = os.system("python2 illuminator.py %s"% bl)
 
     train_delay_counter -= 1
     if train_delay_counter < 0:
         train_delay_counter = -1
           
     time.sleep(0.1)
-
-
 
 
 def get_active_window_title(self):

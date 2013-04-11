@@ -1,36 +1,233 @@
 
-2013-04-09 21:04:19+0200 > 
+2013-04-09 22:22:20+0200 > 
 
-Logging stopped at 2013-04-09 21:04:19+0200
+Logging stopped at 2013-04-09 22:22:20+0200
 
 Logging started ...
 
-2013-04-09 21:04:19+0200 > <LCtrl><LCtrl>c
-2013-04-09 21:05:04+0200 > <Down><Right><Down><Right><Down><Right><Down>
-2013-04-09 21:05:25+0200 > <LAlt><F4><F6><F6><F6><Down><Down><Down><Left><Up><Left>
-2013-04-09 21:05:40+0200 > <LMeta><Left><LAlt><F4>git stau<CpsLk>ta<CpsLk>us
-2013-04-09 21:05:46+0200 > <Right><Right><Down><Down><Down><Down><Right><Down><Down><Right><LAlt><Tab>touch cleanupäb<CpsLk>sh
-2013-04-09 21:06:04+0200 > <LAlt><Left><BckSp><BckSp><LAlt><Left><LAlt><Right><Left><Left><LAlt><Left><Left><Up><#+5><Left><LAlt><Tab><LAlt><Tab>
-2013-04-09 21:06:29+0200 > <LMeta><Left>i<RShft>̊<CpsLk><CpsLk><RShft>Z<CpsLk><RShft><RShft>!<CpsLk><RShft>#<RShft>!bin<Esc><Left><Left>iö<Esc><Right><Right><Right>aöbash<Esc><LShft>:w
-2013-04-09 21:06:47+0200 > <LShft>:w
-2013-04-09 21:06:48+0200 > o
-2013-04-09 21:06:49+0200 > n<CpsLk>killall python2<Esc>yy<RShft>P<RShft>C<Up><Up><Up><Up><Up><Up><Up><#+10><Up><Up><Up><Up><Up><Up><Up><Up><Up><Up><Up><Up><Up><Up><Up><Up><Up><LAlt><Tab>logkeys ̊k<Esc><LShft>:x
-2013-04-09 21:07:42+0200 > <LAlt><Tab><BckSp><#+9>äöcl<Tab><Tab><Tab>eanup
-2013-04-09 21:07:54+0200 > <Up><BckSp><#+10>cleanup
-2013-04-09 21:07:58+0200 > <Up><Left><#+7>äö
-2013-04-09 21:08:03+0200 > <Up><Tab>äsh
-2013-04-09 21:08:07+0200 > <Up><Home>sudo 
-2013-04-09 21:08:09+0200 > <LAlt><Tab><Tab><LAlt><Tab><Up><Left><#+8><Right><Right><BckSp><BckSp>
-2013-04-09 21:08:28+0200 > <Up><Left><#+6><Up><Left><#+8>
-2013-04-09 21:08:41+0200 > <Up><Left><#+6><Left><Left><BckSp><#+7>
-2013-04-09 21:08:48+0200 > sudo <RShft>!!
-2013-04-09 21:08:51+0200 > <Up>
-2013-04-09 21:09:24+0200 > <Up><Left><#+8><Left><Right><BckSp><#+6>
-2013-04-09 21:09:27+0200 > <LMeta>tbash e<CpsLk><CpsLk><CpsLk><CpsLk><CpsLk><CpsLk>run bash sc<Down>
-2013-04-09 21:09:44+0200 > fe<LAlt><Tab>chmod ̊<CpsLk>-<CpsLk><RShft>+x cle<Tab>
-2013-04-09 21:10:07+0200 > bash cle<Tab>
-2013-04-09 21:10:14+0200 > <Up><Home>sudo 
-2013-04-09 21:10:17+0200 > 
+2013-04-09 22:22:20+0200 > <F5><F5><F5><F5><F5>tttttttttttttttttttttttt<F6><F6><F6><F6><F6><F6><LAlt><CpsLk><LAlt><Tab><Tab><LAlt><Tab><Tab><Tab><Down><Down><Right><Down><Right><Up><Up><Up><Up><Up><Left><LAlt><Tab><LAlt><Tab><Tab><LAlt><Tab><Tab><Tab><F6><Right><Right><LCtrl><LCtrl><LCtrl><LCtrl><LCtrl><Up><Up><Left><#+11><Left><#+12><Up><Up><Left><Up><Up><Down><#+8><Up><Up><Right><#+29><Up><Up><Up><Up><Left><#+12><Down><Down><Down><Down><Down><Down><Up><Up><Up><Up><Up><Up><Down><#+9><Up><#+7><Down><#+2><Up><Right><#+9><LAlt><F4><Left><Left><Left><Up><#+21><LMeta><Up><LAlt><Tab><Tab><Down><#+12><Down><#+2><Down><#+14><Down><#+7><Down><Down><#+2><Up><#+15><Up><#+14><Up><#+9><Up><#+7><LAlt><Tab><LAlt><Tab>xxxxxxxxxxxx<LAlt><Tab><LAlt><Tab><LAlt><Tab><Tab><Tab><Tab><Tab><Tab><Tab><Down><Down><Up><Up><Up><Up><Up><Up><Up><Left><Left><Down><#+7><Right><Right><Up><Right><Up><#+10><Left><Down><#+7><Left><Up><#+9><Left><Down><#+8><Right><Right><Right><Up><Right><Left><Left><Left><Up><Right><Right><Right><Up><Left><Left><Left><Up><Right><Right><Right><Up><Up><Up><Left><Left><Left><Down><Right><#+1><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Up><Up><#+11><Left><#+2><Right><#+5><Right><#+20><Up><#+4><Up><Left><Down><#+8><Right><Up><Right><Up><#+6><Down><#+12><RShft>H<Down><#+15><LMeta><LMeta><F5><F5><Up><#+10><LMeta><Up><#+17><Down><#+16><LAlt><Tab><Tab><Tab><Tab><Tab><Tab><Tab><Down><Down><Up><#+10><Left><#+4><Down><#+8><Right><Up><Right><Right><Up><Up><Up><Up><Up><Left><#+4><Down><#+7><Right><Up><#+8><Left><Down><Down><Down><LCtrl><Up><Up><Up><Up><Up><Left><Down><Right><Left><Right><Right><Down><Down><F6><Left><Down><LCtrl>c
+2013-04-09 22:30:33+0200 > v<F2>da<CpsLk><CpsLk>pyt<CpsLk><CpsLk><CpsLk><Left><Left>statistics
+2013-04-09 22:32:08+0200 > <LAlt><Tab><LAlt><Tab><Tab><LAlt><Tab><Tab><LMeta><Right><Right><Right><Down>
+2013-04-09 22:32:18+0200 > <Down>
+2013-04-09 22:32:20+0200 > <Down>
+2013-04-09 22:32:20+0200 > <Down><Right><Down><#+9><Right><Left><Up><Right><Right><Up><Up><#+5><Left>st<BckSp><BckSp>
+2013-04-09 22:32:35+0200 > 
+2013-04-09 22:32:37+0200 > <Right><Down><#+5><Right><Up><Right><Up><Right><Up><F2>statistics
+2013-04-09 22:32:43+0200 > <LMeta><LMeta><LMeta><Right><Right><Right><Down>
+2013-04-09 22:32:51+0200 > <Down>
+2013-04-09 22:32:52+0200 > <Down>
+2013-04-09 22:32:53+0200 > <Down><#+9><Right><Up><Up><Right><Right><Up><F2>statistics
+2013-04-09 22:33:01+0200 > <LMeta><Right>
+2013-04-09 22:33:09+0200 > <Right>
+2013-04-09 22:33:10+0200 > <Right><#+4><Down><Right><Down><F2>statistics
+2013-04-09 22:33:29+0200 > <LMeta><Right><Right><#+1><Down><Down><Right><Down><Right><Right><Up><Right><Left><Right><Left><Right><LShft><F10><Right><Left><LShft><F10>v<Left><Right><Left><LCtrl>c
+2013-04-09 22:33:52+0200 > v<F2>static<CpsLk>stics
+2013-04-09 22:33:56+0200 > <LMeta><Right>
+2013-04-09 22:34:02+0200 > <Right>
+2013-04-09 22:34:02+0200 > <Down><Right><Down><Right><Down><Right><Down><F2>statict<CpsLk><CpsLk>stics<Left><#+11><End><Home><End><Home><LShft><Right><Left><Right><#+13>
+2013-04-09 22:34:13+0200 > <LMeta><Left><Left><Right><Right><Down><Up>
+2013-04-09 22:34:19+0200 > <Down>
+2013-04-09 22:34:20+0200 > <Down>
+2013-04-09 22:34:20+0200 > <Down><#+1><Right><Down><Right><Right><Down><Right><Up><Right><Right><Right><Left><F2>statistics<Left><Right><Left><Right><#+6><Home><End><Home><Right><#+14><RCtrl><LMeta><Left><#+4><End><Home><Right><#+18><Home><Left><Right><Right><Right>
+2013-04-09 22:36:45+0200 > <LMeta><Right><Right><Right><Right><Down><Down>
+2013-04-09 22:36:52+0200 > <BckSp><CpsLk><F6><Right><Left>
+2013-04-09 22:37:33+0200 > <Down><Right><Left>
+2013-04-09 22:37:35+0200 > <Down>
+2013-04-09 22:37:36+0200 > <Down><#+8><Right><#+3><Up><#+3><Down><Down><Down><LShft><F10>v<Left><Left><Right><LAlt><Tab><Tab><LCtrl>c
+2013-04-09 22:37:46+0200 > <Right><Down><Right><Down><Right><Down><LCtrl>c
+2013-04-09 22:37:49+0200 > v<F2>sr
+2013-04-09 22:37:52+0200 > <LMeta>
+2013-04-09 22:38:00+0200 > <Down>
+2013-04-09 22:38:01+0200 > <Down>
+2013-04-09 22:38:02+0200 > tfolder cla<CpsLk>oses when <LAlt><Tab><Tab><LAlt><Tab><Tab><Down><Right><#+2><Down><Right><Down><Right>
+2013-04-09 22:38:15+0200 > <LAlt><F4><LAlt><Tab><LAlt><Tab> <CpsLk>renaming
+2013-04-09 22:38:20+0200 > <Left><#+27>gnome 
+2013-04-09 22:38:30+0200 > <LShft><Home>linux
+2013-04-09 22:38:36+0200 > x<LAlt><Tab>ein
+2013-04-09 22:38:48+0200 > <LMeta><Right><Right><Right><Down>
+2013-04-09 22:38:54+0200 > <Right><Down><Right>
+2013-04-09 22:38:55+0200 > <Right><#+4><Left><BckSp><Right><Down><Down><Del><LShft><F10>v<LAlt><Tab><Tab><Up><BckSp><#+23>tocu<CpsLk><CpsLk>uch <BckSp><#+8>cp keyäpy static<CpsLk>sticsäpy
+2013-04-09 22:39:26+0200 > ls
+2013-04-09 22:39:27+0200 > vim sta<CpsLk><#+14><BckSp><#+7>gvim stati<Tab>
+2013-04-09 22:39:36+0200 > <LMeta><Left><Down><#+31><LShft>V<Up><#+35><Down><#+3><Down><Down><Up><Up>ddddddddddddd<LShft>:w
+2013-04-09 22:39:48+0200 > <LShft>:w
+2013-04-09 22:40:01+0200 > <LMeta>1<LMeta>tsl
+2013-04-09 22:40:07+0200 > f<Esc>fmmtekni<Down>
+2013-04-09 22:40:15+0200 > <Tab>vårst<CpsLk><BckSp><BckSp><BckSp>a<BckSp>ȁprga<Down>
+2013-04-09 22:40:29+0200 > <LCtrl>ast<BckSp><BckSp>rgycehyim r<Down><Down><Down><Down><Down><Down>
+2013-04-09 22:40:42+0200 > vå<BckSp><BckSp>te<BckSp><BckSp><BckSp>gfeku<Down>
+2013-04-09 22:41:34+0200 > <Tab>vȁpr<Down>
+2013-04-09 22:41:37+0200 > <Tab><Tab>
+2013-04-09 22:41:38+0200 > <LAlt><Tab><Tab><LAlt><Tab><Up><#+11><LAlt><Tab><Tab><Tab><Down><#+6><Right><Right><Down>
+2013-04-09 22:42:55+0200 > <Down><#+12><LAlt><F4><Down><#+24><Up><#+12><Down><#+3><Down><LAlt><Tab><Tab><LAlt><Tab><Tab><LAlt><LAlt><Tab><Tab><Tab><LMeta><Right><LAlt><Tab>iwhi<LAlt><Tab><LAlt><Tab>u<Esc>l<LCtrl>p<LShft>:l<RShft>Ä1
+2013-04-09 22:44:18+0200 > <RShft>Äq
+2013-04-09 22:44:20+0200 > <LMeta><LAlt><Tab><LAlt><Tab>iwhile <RShft>True<CpsLk><CpsLk><CpsLk><CpsLk>i <CpsLk><CpsLk><RShft>̊ in range<LShft>()<Esc>i100<Esc><LShft>:w
+2013-04-09 22:45:33+0200 > <LShft>:w
+2013-04-09 22:45:34+0200 > <Left><Right>x<LShft>:w
+2013-04-09 22:45:36+0200 > <LShft>:w
+2013-04-09 22:45:37+0200 > <LShft>:w
+2013-04-09 22:45:38+0200 > a<LShft>:<Esc><LShft>:w
+2013-04-09 22:45:40+0200 > os<Esc><Up>bcwfor<Esc><Down><LShft>:w
+2013-04-09 22:45:46+0200 > <Right><Right><Right><LShft>:w
+2013-04-09 22:45:48+0200 > <LShft>:w
+2013-04-09 22:46:02+0200 > <LShft>:w
+2013-04-09 22:46:09+0200 > <LShft>:w
+2013-04-09 22:46:10+0200 > <LShft>:w
+2013-04-09 22:46:13+0200 > <LShft>:w
+2013-04-09 22:46:14+0200 > <LShft>:w
+2013-04-09 22:46:16+0200 > <LShft>:w
+2013-04-09 22:46:17+0200 > <LMeta><Down><Right><Up><Up><Up><RShft><Up>
+2013-04-09 22:46:34+0200 > <Down><Down><LShft>V<LShft>V<Down><Down><Down><#+1><Up><Up><LShft>V<LShft>V<LAlt><F4><Up>
+2013-04-09 22:46:43+0200 > <Down><Down><LShft>V<Down><Down><LShft>V<LShft>V<Up><Up><Up><Up><RShft>+y<LAlt><F4><LAlt><Tab><Down><Up><LAlt><Up><Down><Up><LShft>O<Esc><LShft>O<Esc><RShft>@+<Esc>u<RShft>+p<Down><Down><Down><Down><Down>dd<Up><Up><Up><Down><Down><Up><Up><Down><Down>dd<Down><Down>p<Up>dd<RShft>ÄÄ<LShft>:w
+2013-04-09 22:47:23+0200 > <Up><Up>dd<LShft>:w
+2013-04-09 22:47:24+0200 > <LShft>:w
+2013-04-09 22:47:26+0200 > <LShft>:w
+2013-04-09 22:47:27+0200 > <Up><Up><Right><#+6><Right>dw<LShft>:w
+2013-04-09 22:47:34+0200 > <Right><#+31><Left><#+10><Right><#+10><Right><Left><#+18><Left><LMeta><Down><Down><Right><Down><Right><Down><Right><Down>
+2013-04-09 22:48:45+0200 > <Right><Right><Right><Down><Down>
+2013-04-09 22:48:49+0200 > <LAlt><Left><Left><Up><Right><Left>
+2013-04-09 22:48:55+0200 > <Right><Right>
+2013-04-09 22:48:57+0200 > <LAlt><Left><Left>
+2013-04-09 22:48:59+0200 > <LAlt><Left><Left><Right><Right><Up><Left>
+2013-04-09 22:49:02+0200 > <Down><Down><#+11><Right><Up><#+9><Right><Right>
+2013-04-09 22:49:05+0200 > <Down><LAlt><Left><LAlt><Left><Left>
+2013-04-09 22:49:13+0200 > <LMeta><Down>
+2013-04-09 22:49:32+0200 > <LAlt><F4><Up><#+7><Left><Left><Down>
+2013-04-09 22:49:36+0200 > <Down><#+29><Down><#+5><LAlt><F4><Down><#+4><Right><Down><Right>
+2013-04-09 22:49:43+0200 > <LMeta><Left><Down><#+30><LAlt><F4><LMeta><Right><Right><Right>
+2013-04-09 22:49:54+0200 > <Down><Down><#+7><Right><Right><Right><Up><Up><Right><Up><Up>
+2013-04-09 22:50:03+0200 > <Right><Right>
+2013-04-09 22:50:06+0200 > <Down><Right><Down><Right>
+2013-04-09 22:50:07+0200 > <LAlt><F4><Left>
+2013-04-09 22:50:09+0200 > <LAlt><Left><Right>
+2013-04-09 22:50:12+0200 > <LAlt><F4>
+2013-04-09 22:50:14+0200 > <LAlt><F4>
+2013-04-09 22:50:15+0200 > <LAlt><F4>
+2013-04-09 22:50:16+0200 > <LAlt><F4><Left><Up><Right>
+2013-04-09 22:50:19+0200 > <LAlt><F4>
+2013-04-09 22:50:21+0200 > <LAlt><F4>
+2013-04-09 22:50:22+0200 > <LAlt><F4><Down>
+2013-04-09 22:50:23+0200 > <LAlt><F4>
+2013-04-09 22:50:27+0200 > <LAlt><F4>
+2013-04-09 22:50:30+0200 > <LAlt><F4>
+2013-04-09 22:50:32+0200 > <LAlt><F4>
+2013-04-09 22:50:38+0200 > <LAlt><F4>
+2013-04-09 22:50:41+0200 > <LAlt><F4><Up><Down>
+2013-04-09 22:50:43+0200 > <LAlt><F4><LMeta><Right><Down><Down><Left><Left><Up><Up><Right>
+2013-04-09 22:51:36+0200 > <LAlt><F4><Left>
+2013-04-09 22:51:41+0200 > <Right><BckSp><LAlt><Left><Right><Down><Right><Down>
+2013-04-09 22:52:01+0200 > <LAlt><F4>
+2013-04-09 22:52:04+0200 > <LAlt><F4>
+2013-04-09 22:52:09+0200 > <LAlt><F4>
+2013-04-09 22:52:17+0200 > <LAlt><F4><F5><F5><F5>
+2013-04-09 22:52:25+0200 > <LAlt><F4><Up><Up><Left>
+2013-04-09 22:52:28+0200 > <LAlt><F4><Down><Left><Down><Right><Right><Up><Up>
+2013-04-09 22:52:33+0200 > <LAlt><F4><Up><Left>
+2013-04-09 22:52:37+0200 > <F6><F6><F6><F6><LAlt><F4>
+2013-04-09 22:52:41+0200 > <LAlt><F4><Up>
+2013-04-09 22:52:44+0200 > <LAlt><F4><Left><Left>
+2013-04-09 22:52:47+0200 > <LAlt><F4><Down>
+2013-04-09 22:52:49+0200 > <LAlt><F4><Down><Down><Down>
+2013-04-09 22:52:54+0200 > <LAlt><F4><Right><Up><Up>
+2013-04-09 22:52:57+0200 > <Down><Right><Right><BckSp><Right><Right><Right>
+2013-04-09 22:53:25+0200 > <Down><#+6><Down><Right><Up><#+10><Right><Down><Right><Down><#+8><Left><Up><Up><#+3><Right><Down><Down><Right><Down><Down>
+2013-04-09 22:53:40+0200 > <Down>
+2013-04-09 22:53:42+0200 > <Right><Right><Right>
+2013-04-09 22:53:44+0200 > <Down>
+2013-04-09 22:53:46+0200 > <LAlt><F4><Right><Right>
+2013-04-09 22:53:50+0200 > <LAlt><F4><Right>
+2013-04-09 22:53:51+0200 > <LAlt><F4><Down>
+2013-04-09 22:53:52+0200 > <LAlt><F4><Left>
+2013-04-09 22:53:53+0200 > <LAlt><F4><Left>
+2013-04-09 22:53:55+0200 > <LAlt><F4><Left>
+2013-04-09 22:53:56+0200 > <LAlt><F4><Down>
+2013-04-09 22:53:57+0200 > <LAlt><F4><LAlt><Left><LAlt><LAlt><Left>
+2013-04-09 22:54:08+0200 > <LAlt><F4><LAlt><Left><Right><Right>
+2013-04-09 22:54:10+0200 > <Right><Right><#+3><Right><Up>
+2013-04-09 22:54:14+0200 > 
+2013-04-09 22:54:18+0200 > <LAlt><Left><Left><Left><Right><Down><Down><Down><Up>
+2013-04-09 22:54:31+0200 > <LAlt><Left><Up><Up>
+2013-04-09 22:54:37+0200 > <LAlt><F4><Right><Down><Down><Down><Down><Right>
+2013-04-09 22:54:44+0200 > <LAlt><F4><Left><Left>
+2013-04-09 22:55:15+0200 > <LAlt><F4><Left>
+2013-04-09 22:55:30+0200 > <LAlt><F4><Up>
+2013-04-09 22:55:32+0200 > <LAlt><F4><Right>
+2013-04-09 22:55:34+0200 > <LAlt><F4><Up><Left>
+2013-04-09 22:55:37+0200 > <LAlt><F4><Up><Down>
+2013-04-09 22:55:42+0200 > <LAlt><F4><Up><Right>
+2013-04-09 22:55:46+0200 > <LAlt><F4><Right><Down>
+2013-04-09 22:55:54+0200 > <LAlt><F4>
+2013-04-09 22:56:14+0200 > <LAlt><F4>
+2013-04-09 22:56:16+0200 > <LAlt><F4>
+2013-04-09 22:56:17+0200 > <LAlt><F4>
+2013-04-09 22:56:18+0200 > <LAlt><F4><LAlt><Tab><Tab><Left><#+7><Up><#+11><Down><#+2><LShft>:w
+2013-04-09 22:56:24+0200 > <LShft>:w
+2013-04-09 22:56:25+0200 > otime.<CpsLk>äsleep<RShft>()<Esc>i0.<CpsLk>ä5<Esc><LShft>:w
+2013-04-09 22:56:35+0200 > <LShft>:w
+2013-04-09 22:56:36+0200 > <LShft>:w
+2013-04-09 22:56:37+0200 > <Up><Up><Up><Up><Right><Right><Right><Right><Right><Right><Right><Right><Right>cwpower<RShft>Ä<CpsLk><RShft>̊supply<Esc><Right>w<LAlt><Tab><Tab><Tab><Tab><Tab><LAlt><Tab>cwb<RShft><CpsLk><RShft>BAT0<Esc>ww<LAlt><Tab><LAlt><Tab>cwpoew<CpsLk><CpsLk>weröpower<LAlt><Tab><LAlt><Tab><BckSp><BckSp><BckSp><BckSp><BckSp><BckSp><RShft>̊now<Esc><LShft>:w
+2013-04-09 22:57:12+0200 > <LAlt><Tab><LAlt><Tab><LShft>:w
+2013-04-09 22:57:14+0200 > <LShft>:w
+2013-04-09 22:57:15+0200 > <Down><Down><Down><Left><#+9><Left><Left><Left><Left><LAlt><Tab><Tab><LAlt><Tab><LAlt><Tab><Tab><Tab><Tab><Tab><Tab><LMeta><Up><Up>
+2013-04-09 22:57:47+0200 > <LAlt><F4><LAlt><Tab><LAlt><Tab><LAlt><Tab><Tab><Tab>an<CpsLk><CpsLk>no<CpsLk><CpsLk>anteckningarätxt<Home>touch 
+2013-04-09 22:59:13+0200 > vim an<Tab>
+2013-04-09 22:59:15+0200 > i<LShft><LShft>E<CpsLk>̊ hur kan algoritmen för<CpsLk><CpsLk>ä<CpsLk>̊<CpsLk>orbä<CpsLk>attras<RShft>Ö<Esc><Left><#+21><Left><Left><Left>v<Right>cvär<CpsLk><CpsLk>art p<CpsLk>må<CpsLk>al har bara varit att g<CpsLk>skapa en intelligent daemonä <Esc><Right><#+10><Right><#+7>o̊ <Esc><Up>wwwwwwwwwww<RShft>Cden kan fö<CpsLk>orbät<CpsLk><CpsLk>atrra<CpsLk><CpsLk><CpsLk>tras på <CpsLk><CpsLk>a en stor <CpsLk><CpsLk><CpsLk><CpsLk><CpsLk><CpsLk><CpsLk>tt stort antal sattä några<CpsLk><CpsLk><CpsLk><CpsLk>agra forslag till en framtida inpl<CpsLk><CpsLk><CpsLk>mplementation ar<Esc>a<LShft>:<Esc><Down>a<Right><Right><Right>r<CpsLk><Esc><Up><Up><Left><CpsLk>o<Esc>u<LShft>O<Esc><LShft>Ox<CpsLk>näm<CpsLk><CpsLk>an<CpsLk>mn att man egentligen sku<CpsLk><#+10><BckSp>kulle behöv<CpsLk><CpsLk>ova gö<CpsLk>ora en använ<CpsLk><CpsLk>andarundersokningö<CpsLk> -<CpsLk>= <CpsLk><CpsLk><LShft>+ mer reg<CpsLk><CpsLk>igu<CpsLk>oros statistisk undersokning men att tiden inte rackte<Esc><LShft>:w
+2013-04-09 23:02:14+0200 > bbb<RShft>Cprojet<CpsLk>ktet ar for litet<Esc><LShft>:w
+2013-04-09 23:02:23+0200 > <Down><#+3>asän<CpsLk><CpsLk>ank ljusstyc<CpsLk>rkan då <CpsLk><CpsLk>a <Esc>binåg<CpsLk><CpsLk>agoot <CpsLk><CpsLk><CpsLk>t <Esc><RShft>Aman unpluggar<Esc><LShft>:x
+2013-04-09 23:03:46+0200 > <LMeta><LMeta><LMeta><Left><Left><Down><Right><Down><#+10><Up><#+8><Down><#+5><Up><#+1><Right><Up><Right><Down><Down>
+2013-04-09 23:05:12+0200 > <LAlt><F4><Left><Down><Down><Down><Up><Right><Right><Right>
+2013-04-09 23:05:17+0200 > <LMeta><Left><Down><#+62><Up><#+14><Down><#+8><LAlt><F4><LAlt><Tab><Left><#+10><Up><Right><Right><Right>cwpopen<Esc><Right><#+11>aäreadline<LShft>()<Esc><Left>b<RShft>Bipower = int<RShft>(<Esc><Right><#+25>a<RShft>)<Esc><LShft>:w
+2013-04-09 23:06:19+0200 > <LShft>:w
+2013-04-09 23:06:19+0200 > <LShft>:w
+2013-04-09 23:06:20+0200 > <LShft>:w
+2013-04-09 23:06:23+0200 > <LAlt><Tab><Tab><LAlt><LAlt><Tab><LAlt><Tab><Tab><Tab><Tab><Tab><Tab><Tab><Up><Up><BckSp><#+18>python2 st<Tab>
+2013-04-09 23:06:34+0200 > <LAlt><Tab><Up><Up><Up><Up><Up>yypwcwtime`<CpsLk><Esc><LShft>:w
+2013-04-09 23:06:41+0200 > <LAlt><Tab><Up>
+2013-04-09 23:06:41+0200 > <LAlt><LAlt><Tab><Down><Down><Down><Down><Down>oprint power<Esc><LShft>:w
+2013-04-09 23:06:53+0200 > <LAlt><Tab><Up>
+2013-04-09 23:06:54+0200 > <LAlt><Tab><Up><Up><Up>olist = -=<CpsLk><CpsLk>.ȁ<CpsLk><CpsLk>ȁ]<Esc><Left><Left><Left>bcwpowers<CpsLk>list<Esc><Down><Down>b<LMeta>1<LMeta><#+5>tpython a<CpsLk>list append
+2013-04-09 23:08:02+0200 > fmmx<LAlt><Tab>opowerlistäappend<LShft>()<Esc>io<CpsLk>power<Esc><Down>dd<Down>p<LShft>ÅÅwcwavg<LShft>()<Esc>ipoew<CpsLk><CpsLk>wershel<CpsLk><CpsLk><CpsLk><CpsLk>list<Esc><LShft>:w
+2013-04-09 23:08:33+0200 > <LAlt><Tab><Tab><Up>
+2013-04-09 23:08:35+0200 > <LMeta>1<LMeta>tpython average value<Down>
+2013-04-09 23:08:49+0200 > fl<Down><#+7><Down><#+8><LAlt><Tab><LAlt><Tab><LAlt><Tab><Tab><Up><#+6><Down>yypwcwnumpy<LAlt><Esc><Down><#+7><LAlt><Tab><LAlt><Tab>bbbcwnumpyämean<Esc><LShft>:w
+2013-04-09 23:09:16+0200 > <LAlt><Tab><Tab><Up>
+2013-04-09 23:09:18+0200 > <LAlt><Tab><Up><Up>oprint power<Esc><LShft>:w
+2013-04-09 23:09:33+0200 > <LAlt><Tab><Up>
+2013-04-09 23:09:34+0200 > <F5><F5><F5><F5><F5><Up>
+2013-04-09 23:11:04+0200 > <F6><#+6><F6><F6><F6><F6><F6><F6><F6><F6><F6><F6><F6><Up>
+2013-04-09 23:11:15+0200 > <F5><F5><F5><F5><F5><F5><F5><F5><Up>
+2013-04-09 23:11:25+0200 > vim an<Tab>
+2013-04-09 23:11:41+0200 > <Down><Up><LShft>O
+2013-04-09 23:11:44+0200 > <Esc><Up>inäm<CpsLk><CpsLk>an<CpsLk>mn hur mycket man kna s<CpsLk><CpsLk><CpsLk><CpsLk><CpsLk><CpsLk><CpsLk><CpsLk><CpsLk>power <CpsLk><CpsLk> <CpsLk>r man sk<CpsLk>para <CpsLk>r under låg<CpsLk><CpsLk>̊<CpsLk>ag ljusstyrka<Esc><LShft>:<Esc><Right><LShft>:x
+2013-04-09 23:12:14+0200 > <Up>
+2013-04-09 23:12:16+0200 > <Right><RShft>A <RShft>*<CpsLk><RShft>()<Esc>iunde<CpsLk>a<CpsLk><CpsLk><CpsLk><CpsLk>fixa batterẙarchlinux̊issuen<Esc><LShft>:x
+2013-04-09 23:12:36+0200 > <F6><F6><F6><F6><F5><F5><F5><F5><F5><Up><Up><F5><F6><F5><F5><F5><F5><F5><F6><F6><F5><F5><F5><F5><F6><F5><F5><F6><F6><F6><F6><F6><F5><#+7><F5><F5><F5><F5><F5><F5><F6><F6><F6><BckSp><#+19>python2 statistic<Tab>
+2013-04-09 23:13:59+0200 > pyht<CpsLk><CpsLk>thon2ä<CpsLk> ill<Tab>0
+2013-04-09 23:14:18+0200 > <Up><Home>sudo 
+2013-04-09 23:14:23+0200 > python2 stat<Tab>
+2013-04-09 23:14:42+0200 > <F6><F6><Down><Right><Left><Left>v<Right><Right>c1<Esc><LShft>:w
+2013-04-09 23:15:32+0200 > <Up><Up><Up><Up><Right>x<LShft>:w<Esc><Left>r5<LShft>:w
+2013-04-09 23:15:37+0200 > <LShft>:w
+2013-04-09 23:15:41+0200 > <LShft>:w
+2013-04-09 23:15:52+0200 > <Up><Up><Down>
+2013-04-09 23:15:55+0200 > <LMeta><Down><#+10><Down><#+7><Down><#+2><Down><#+6><Down><#+3><Down><#+3><Down><Down><#+2><Down><#+4><Up><#+59><RShft>H<Up><#+25><RShft>Den femte gång<CpsLk><CpsLk><CpsLk>aå<CpsLk><CpsLk><BckSp><BckSp>ȁkdfk biup .ynefk rȁ apd <BckSp><BckSp><BckSp>rlp ovfp g<BckSp>agg tiuceak gyd hakr<BckSp>r spyggkukd rȁ agg hak vigf bpsfgä <RShft>Sf rf<BckSp>.fiasf tfm magchfp mfk avrilgasf ukgf sfk tfmgfä<BckSp>å <BckSp><BckSp>å<BckSp>ä<BckSp>å rȁ <BckSp><BckSp><BckSp><BckSp><BckSp>ä<Up><Home><RShft>Fxfm.fi<RShft>Ä
+2013-04-09 23:23:19+0200 > 
+2013-04-09 23:23:19+0200 > <Up><Up><End><Left><LCtrl><LShft><Left><RShft>Toprg<BckSp>iad<Down><Down><Home><RShft>:ynfek <BckSp><BckSp><BckSp><BckSp>efk vakk sf gvȁ r<BckSp>toprga dȁkdfpka ych tiuceak vakk sf gvȁ ftgfptoinaksf dȁkdfpkaä <Right><#+52><Down><Left><Left>aiigrȁ <Right><#+1><Right><Left><LCtrl><LShft><Right>dȁkdfp<Left> magchfk 
+2013-04-10 00:20:40+0200 > 7418880s
+2013-04-10 00:20:45+0200 > <F6><F6><F5><F5><BckSp><BckSp><BckSp><BckSp><BckSp><BckSp><BckSp><BckSp><BckSp><BckSp>7418880r
+2013-04-10 00:20:55+0200 > <F6><Down><Up><Up><#+1><Up><LAlt><Tab><LAlt><Tab><Up><LAlt><Tab><Tab><Down><Down><Down><Down><Up><Up><Up><Up><Up><Up><Up>yy<CpsLk><CpsLk><BckSp><BckSp><Esc><Left><Right>v<Left><Esc><Up><#+5><Left><#+9><Left><Left>v<Right><#+32><Right>yyy<Down><Down><Down><Down><Right><#+6><Down><Up><Right><#+3><Left>v<Right><#+3>p<LShft>:wȁ<LShft><BckSp>
+2013-04-10 00:24:31+0200 > <Up><Up><Up><Up>dddd<LShft>:w
+2013-04-10 00:24:34+0200 > <Down><Down><LShft>:w
+2013-04-10 00:24:36+0200 > <Down><Down><Down>dd<LShft>:w
+2013-04-10 00:25:11+0200 > <LAlt><Tab><Up>
+2013-04-10 00:25:14+0200 > <LAlt><Tab><Up><Up>u<Down>dd<LShft>:w
+2013-04-10 00:25:24+0200 > <LAlt><Tab><Up>
+2013-04-10 00:25:25+0200 > <LAlt><Tab>git status
+2013-04-10 00:25:55+0200 > git comi<CpsLk><#+5><CpsLk><CpsLk><CpsLk><CpsLk>a<CpsLk><CpsLk>add ä
+2013-04-10 00:26:04+0200 > gits<CpsLk> status
+2013-04-10 00:26:07+0200 > git <CpsLk><CpsLk><CpsLk><CpsLk>bash cl<Tab><Tab>e<Tab>
+2013-04-10 00:26:17+0200 > <Up><Home>sudo 
+2013-04-10 00:26:20+0200 > 
 
-Logging stopped at 2013-04-09 21:10:17+0200
+Logging stopped at 2013-04-10 00:26:20+0200
 
