@@ -28,7 +28,7 @@ def add_entry_decrease(brightness,key_presses):
     battery_level = str(sysdata_tuple[0])
     plugged_in = 'T' if sysdata_tuple[5] else 'F'
     entry = "\n%s, %s, %s, %s, lower"%(key_presses,plugged_in,brightness,battery_level)
-    print "Addar detta:             %s"% entry
+    print "Adding entry:             %s"% entry
     with open("power.data","a") as training_set_file:
         training_set_file.write(entry)
 
@@ -37,7 +37,7 @@ def add_entry_increase(brightness,key_presses):
     battery_level = str(sysdata_tuple[0])
     plugged_in = 'T' if sysdata_tuple[5] else 'F'
     entry = "\n%s, %s, %s, %s, higher"%(key_presses,plugged_in,brightness,battery_level)
-    print "Addar detta:             %s"% entry
+    print "Adding entry:             %s"% entry
     with open("power.data","a") as training_set_file:
         training_set_file.write(entry)
 
@@ -91,7 +91,7 @@ def kod():
     key_presses = f.read()
     f.close()
     if not key_presses:
-        print "Nu GICK NAT GALET!!!!!!1111"
+        print "Should not happen."
         key_presses = "0"
 
     manual_change = manual_adjustments(str(int(float(actual_bright)/MAX_BL*100)),key_presses)

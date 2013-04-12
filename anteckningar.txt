@@ -1,8 +1,0 @@
-namn hur mycket power man sparar under lag ljusstyrka (fixa battery-archlinux-issuen)
-
-namn att man egentligen skulle behova gora en anvandarundersokning + mer rigoros statistisk
-undersokning men att projektet ar for litet
-
-vart mal har bara varit att skapa en intelligent daemon. den kan forbattras pa ett stort antal
-satt. nagra forslag till en framtida implementation ar:
-- sank ljusstyrkan nagot da man unpluggar
